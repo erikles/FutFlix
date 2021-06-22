@@ -102,3 +102,11 @@ header nav a {
 header nav a:hover {
     color: #fff;
 }
+
+.container {
+    margin-left: 20px;
+}
+
+.jogo-principal .container{
+    width: 70%;
+}
