@@ -1,5 +1,5 @@
 :root{
-    --vermelho: #e50914;
+    --vermelho: #25c93a;
     --preta: #141414;
 }
 
@@ -20,6 +20,70 @@ header .container{
     align-items: center;
     justify-content: space-between;
     
+}
+eader nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*jogo principal*/
+.jogo-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('/img/brasil.jpg');
+
+    height:400px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+.jogo-principal .titulo{
+    color: white;
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-left: 7px;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.botao i{
+    margin-right: 8px;
 }
 
 header .logo{
